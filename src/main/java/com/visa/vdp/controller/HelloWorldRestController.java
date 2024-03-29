@@ -28,7 +28,7 @@ public class HelloWorldRestController {
     public Response helloWorld() {
         Response response = new Response();
         String responseString = helloWorldService.invokeHelloWorldService();
-        logger.info(String.valueOf(HelloWorldRestController.class), responseString);
+        logger.info("Response from Visa VDP server::{}",responseString);
         response.setMessage(responseString);
         return response;
 
