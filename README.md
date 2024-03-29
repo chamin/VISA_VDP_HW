@@ -24,7 +24,7 @@ To run the project you need installed :
 ### Installation and running
  * Install JDK, JRE, set parameters for environment variables. Install Apache Tomcat, install Apache Maven. 
  * Install Intellij Idea.
- * Clone/fork or download the project [project](https://github.com/chamin/VISA_Infosys_HW)  from the GitHub.
+ * Clone/fork or download the project [project](https://github.com/chamin/VISA_VDP_HW)  from the GitHub.
  * Add pom.xml file as Maven dependencies.
  * Add Spring Boot configuration and write the path to main class "com.visa.vdp.DemoApplication".
  * Run application. The project will be available on localhost:8080.
